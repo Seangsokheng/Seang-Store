@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    height: 120px;
+  }
+
+a:hover{
+    background-color: #ff9f43;
+}
+.contact_menu{
+  background-color: #3b3e6e;
+}
+
+nav {
+    float: right;
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+  
+  h1 {
+    font-size: 30px;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+  }
+  
+  .google-map {
+    margin-bottom: 20px;
+  }
+  

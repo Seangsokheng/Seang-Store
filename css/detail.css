@@ -1,0 +1,183 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    height: 120px;
+    text-align: center;
+}
+
+img{
+    height: 100px;
+}
+
+h1{
+    font-size: 30px;
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+.home_menu{
+    background-color: #3b3e6b;
+}
+
+a:hover{
+    background-color: #ff9f43;
+}
+
+.slideshow {
+    flex-direction: row;
+    display: flex;
+    padding-right: 10%;
+
+  }
+.slideshowimg {
+    border-radius: 20px;
+    height: 400px;
+    
+}
+
+.img{
+    margin-left: 10%;
+}
+
+.left{
+    margin-right: 10%;
+}
+
+.intro_to_product{
+    margin-left: 5%;
+}
+
+.intro_word{
+    font-size: 25px;
+    font-weight: bolder;
+}
+  
+nav {
+    float: right;
+    
+}
+
+h3{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+input{
+    height: 40px;
+    width: 60px;
+}
+
+button{
+    height: 45px;
+    width: 150px;
+    background-color: #ff9f43;
+    border: none;
+    font-weight: bolder;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+h6{
+    color: rgb(205, 205, 187);
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10px;
+} 
+.column {
+    display: flex;
+    
+    flex: 1;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.product {
+    width: 150px;
+    margin: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.product:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
+    0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px , -8px);
+}
+
+.product img {
+    width: 100%;
+}
+
+.product h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.product p {
+    margin-top: 10px;
+}
+
+.product button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .row{
+        width: 50%;
+       
+    }  
+  }
+
+@media only screen and (max-width: 480px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .slideshow{
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+    }
+    
+  }
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

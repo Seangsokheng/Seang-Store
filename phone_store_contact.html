@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phone Store Contact Page</title>
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  <header>
+    <h1>Phone Store</h1>
+    <nav>
+        <a href="phone_store_home.html">Home</a>
+        <a href="phne_store_product.html">Products</a>
+        <a href="phone_store_about.html">About</a>
+        <a class="contact_menu" href="phone_store_contact.html">Contact</a>
+    </nav>
+    
+  </header>
+  <main>
+    <h2 style="text-align: center;font-size: 30px;">Contact Us</h2>
+    <section class="contact-form">
+      <h2>Contact Form</h2>
+      <form action="/contact" method="post">
+        <input type="text" name="name" placeholder="Your name">
+        <input type="tel" name="phone" placeholder="Your phone number">
+        <input type="email" name="email" placeholder="Your email address">
+        <textarea name="message" placeholder="Your message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section class="google-map">
+      <iframe width="600" height="450" src="https://maps.google.com/maps?q=Central+Market,+Phnom+Penh,+Cambodia&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023 Phone Store</p>
+  </footer>
+</body>
+</html>
